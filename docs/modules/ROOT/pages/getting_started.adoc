@@ -29,7 +29,7 @@ If you're on vanilla Kubernetes you can install it by installing the `Operator L
 
 [source,bash]
 ----
-operator-sdk install
+operator-sdk olm install
 operator-sdk run bundle quay.io/maistra/istio-workspace-operator-bundle:latest
 ----
 
